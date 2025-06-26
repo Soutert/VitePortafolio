@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/viteportafolio/',
   plugins: [
     purgeCss({
-      content: ['./index.html', './src/**/*.js'], // cambia según tu estructura
+      content: ['./index.html', './script.js'],
     })
   ],
 })
