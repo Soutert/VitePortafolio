@@ -1,0 +1,110 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #dddddd;
+  color: #161616;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.contenedor {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.perfil {
+  text-align: center;
+}
+
+.imagen-perfil {
+  border-radius: 40%;
+  width: 150px;
+  height: 150px;
+}
+
+.biografia {
+  font-size: 1em;
+  margin: 10px 0 30px;
+}
+
+.contacto h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  padding: 10px;
+  background: #f30c74;
+  color: white;
+  border: none;
+  transition: background 0.3s ease, transform 0.4s ease;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #9f074c;
+  transform: scale(1.02);
+}
+
+footer{
+    color: #1616165d;
+    text-align: right;
+}
+
+input:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, textarea:valid {
+  border-color: green;
+}
+
+.proyectos {
+  margin-bottom: 40px;
+}
+
+.proyectos h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lista-proyectos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.proyecto {
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  border-left: 5px solid #f30c74;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.proyecto h3 {
+  margin: 0 0 5px;
+}
